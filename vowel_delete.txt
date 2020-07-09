@@ -1,0 +1,9 @@
+vowels=['a','e','i','o','u']
+str="thIs is my name"
+str=str.toLowerCase()
+for (i=0; i<vowels.length; i++)
+{
+    li=str.split(vowels[i])
+    str=li.join("")
+}
+console.log(str)
